@@ -1,6 +1,5 @@
 # Prise en main des tests sur Android 
-Dans ce TP vous allez apprendre à exécuter les tests unitaires et instrumentaires sur Android. L'objectif, dans un premier temps, est de vous permettre de voir comment fonctionnent les tests 
-dans une application Android. 
+Dans ce TP vous allez apprendre à manipuler les recyclerviews dans une application Android, effectuer des tests unitaires et d'interfaces. 
 
 ## Travaux à réaliser 
 1. Accepter l'assignment sur Github Classrooms
@@ -9,30 +8,28 @@ dans une application Android.
 4. Faire un commit puis push sur Github
 5. Consulter le repo du projet sur Github (votre Github bien sure), que remarquez-vous ? Vous devriez avoir reçu un mail...
 
-### Exécutez et fixer les tests
+### Etape 1: Fixer les tests
 1. Exécuter les tests  
    -  Lancer les tests unitaires
-   -  Lancer les tests instrumentaires
+   -  Lancer les tests d'interfaces
 2. Que remarquez-vous ? 
-3. Lancer les tests unitaires un à un et corriger les erreurs 
-4. Lancer les tests instrumentaires
-5. Commit et push vos changements. Que remarquez-vous sur le repo Github ? 
+3. Corrigner les erreurs
+4. Relancer les tests (unitaires et d'interfaces)
+6. Commit et push vos changements. Logiquement, vous devriez avoir un flag vert sur le repo. 
 
-### Finaliser l'application
-1. Exécutez l'application et testez 
-2. Les images de profiles des utilisateurs ne sont pas affichés, pouvez-vous corriger cela? 
+### Etape 2: Gestion des images de profile
+1. Exécutez l'application sur un téléphone ou un émulateur
+2. Les images de profile ne s'affichent pas, trouvez et corrigez l'erreur
 3. Commit et push les derniers changements. 
 
-## Améliorer l'application
-- Utiliser le viewbinding pour référencer les éléments de vues dans l'acitivité et l'adapter
-- On va modifier le comportement du bouton supprimer de l'application pour qu'en cliquant sur le bouton delete :
-1. On ne supprime plus l'utilisateur, mais on change son statut (activé <-> desactivé)
-2. On met un background 'rouge' sur la cellule quand l'utilisateur est désactivé et blanc quand il est activé
-3. On change le visuel du bouton delete : `poubelle` si l'utilisateur est activé et `restore` si l'utilisateur est désactivé
-4. Finalement, quand on clique sur le bouton delete ou restore, on change le statut de l'utilisateur
+## Etape 3 : Améliorer l'application
+1. Utiliser le viewbinding pour référencer les éléments de vues dans l'acitivité et l'adapter
+2. Implémenter une fonctionnalité permattant d'activer ou désactiver un utilisateur en swipant la cellule à gauche ou à droite;
+>> Quand l'utiliateur est inactif (i.e. désactivé) on met un background 'rouge' sur la cellule quand il est activé on met un background blanc.
+3. Adapter les tests unitaires pour prendre en compte les derniers changements (i.e. actif vs inactif)
+4. Gestion de l'ordonnancement des éléments de la liste en autorisant le déplacement des cellules.
 
-### Et on fixe les tests 
-
-### Et on teste
+## Bonus 
+- Modifier les tests d'inferfaces
 
 # Contributeurs
