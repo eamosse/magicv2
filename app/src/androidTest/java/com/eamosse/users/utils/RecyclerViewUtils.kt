@@ -1,4 +1,4 @@
-package com.openclassrooms.magicgithub.utils
+package com.eamosse.users.utils
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
@@ -7,7 +7,7 @@ import androidx.test.espresso.UiController
 import androidx.test.espresso.ViewAction
 import androidx.test.espresso.ViewAssertion
 import androidx.test.espresso.matcher.ViewMatchers
-import com.openclassrooms.magicgithub.R
+import com.gmail.eamosse.users.R
 import org.hamcrest.Matcher
 import org.junit.Assert
 

@@ -1,4 +1,4 @@
-package com.openclassrooms.magicgithub
+package com.eamosse.users
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso
@@ -8,10 +8,10 @@ import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
 import androidx.test.rule.ActivityTestRule
-import com.openclassrooms.magicgithub.di.Injection.getRepository
-import com.openclassrooms.magicgithub.ui.user_list.ListUserActivity
-import com.openclassrooms.magicgithub.utils.RecyclerViewUtils.ItemCount
-import com.openclassrooms.magicgithub.utils.RecyclerViewUtils.clickChildView
+import com.eamosse.users.di.Injection.getRepository
+import com.eamosse.users.user_list.ListUserActivity
+import com.eamosse.users.utils.RecyclerViewUtils.ItemCount
+import com.eamosse.users.utils.RecyclerViewUtils.clickChildView
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test

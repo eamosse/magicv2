@@ -1,7 +1,7 @@
-package com.openclassrooms.magicgithub.repository
+package com.eamosse.users.repository
 
-import com.openclassrooms.magicgithub.api.ApiService
-import com.openclassrooms.magicgithub.model.User
+import com.eamosse.users.api.ApiService
+import com.eamosse.users.model.User
 
 class UserRepository(
     private val apiService: ApiService

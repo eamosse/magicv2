@@ -1,10 +1,10 @@
-package com.openclassrooms.magicgithub
+package com.eamosse.users
 
-import com.openclassrooms.magicgithub.api.FakeApiServiceGenerator.FAKE_USERS
-import com.openclassrooms.magicgithub.api.FakeApiServiceGenerator.FAKE_USERS_RANDOM
-import com.openclassrooms.magicgithub.di.Injection
-import com.openclassrooms.magicgithub.model.User
-import com.openclassrooms.magicgithub.repository.UserRepository
+import com.eamosse.users.api.FakeApiServiceGenerator.FAKE_USERS
+import com.eamosse.users.api.FakeApiServiceGenerator.FAKE_USERS_RANDOM
+import com.eamosse.users.di.Injection
+import com.eamosse.users.model.User
+import com.eamosse.users.repository.UserRepository
 import org.junit.Assert
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue

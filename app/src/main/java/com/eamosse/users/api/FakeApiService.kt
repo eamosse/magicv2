@@ -1,6 +1,6 @@
-package com.openclassrooms.magicgithub.api
+package com.eamosse.users.api
 
-import com.openclassrooms.magicgithub.model.User
+import com.eamosse.users.model.User
 
 class FakeApiService : ApiService {
     private val _users = FakeApiServiceGenerator.FAKE_USERS

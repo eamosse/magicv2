@@ -1,7 +1,7 @@
-package com.openclassrooms.magicgithub.di
+package com.eamosse.users.di
 
-import com.openclassrooms.magicgithub.api.FakeApiService
-import com.openclassrooms.magicgithub.repository.UserRepository
+import com.eamosse.users.api.FakeApiService
+import com.eamosse.users.repository.UserRepository
 
 object Injection {
     private var repository: UserRepository? = null

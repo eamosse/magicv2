@@ -1,4 +1,4 @@
-package com.openclassrooms.magicgithub.model
+package com.eamosse.users.model
 
 data class User(
     val id: String,
