@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.gmail.eamosse.users"
+    namespace = ["set.me"]
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.gmail.eamosse.users"
+        applicationId = ["set.me"]
         minSdk = 33
         targetSdk = 35
         versionCode = 1
@@ -45,4 +45,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation (libs.androidx.runner)
+    androidTestImplementation (libs.androidx.espresso.core.v340)
+    androidTestImplementation (libs.androidx.espresso.contrib)
+    androidTestImplementation (libs.androidx.espresso.intents)
 }

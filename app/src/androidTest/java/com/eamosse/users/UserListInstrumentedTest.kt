@@ -12,6 +12,7 @@ import com.eamosse.users.di.Injection.getRepository
 import com.eamosse.users.user_list.ListUserActivity
 import com.eamosse.users.utils.RecyclerViewUtils.ItemCount
 import com.eamosse.users.utils.RecyclerViewUtils.clickChildView
+import com.gmail.eamosse.users.R
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test

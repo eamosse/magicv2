@@ -14,7 +14,7 @@ class ListUserActivity : AppCompatActivity(), UserListAdapter.Listener {
     lateinit var recyclerView: RecyclerView
     lateinit var fab: FloatingActionButton
 
-    // TODO utiliser by lazy
+    // TODO : Remplacer lateinit par lazy
     private lateinit var adapter: UserListAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -15,7 +15,7 @@ class ListUserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     private val deleteButton: ImageButton = itemView.findViewById(R.id.item_list_user_delete_button)
 
     fun bind(user: User, callback: UserListAdapter.Listener) {
-        // TODO afficher l'image de l'utilisateur
+        // TODO afficher l'image de l'utilisateur en utilisant Glide ou Coil
         // TODO afficher le nom de l'utilisateur
         // TODO gérer le clic sur le bouton de suppression
     }
